@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+ol,ul,li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button, input{
+    color: inherit;
+    background-color: inherit;
+}
+
+img{
+    max-width: 100%;
+}
