@@ -8,7 +8,9 @@
     "backend:start": "node ./backend/dist/",
     "backend:build": "babel ./backend/src -d ./backend/dist",
     "frontend:devStart": "webpack-dev-server --config=./frontend/webpack.config.js",
-    "frontend:build": "webpack -p --config=./frontend/webpack.config.js"
+    "frontend:build": "webpack -p --config=./frontend/webpack.config.js",
+    "backend:clean": "rimraf ./backend/dist",
+    "frontend:clean": "rimraf ./frontend/dist"
   },
   "repository": {
     "type": "git",

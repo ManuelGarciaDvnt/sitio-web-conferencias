@@ -1,0 +1,47 @@
+.GestItem{
+    width: 44%;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.GestItem img{
+    display: block;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    transition: all ease-in .3s;
+}
+
+.GestItem:hover > img{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.GestItem:hover > p{
+    bottom: -50px;
+}
+
+.GestItem p{
+    color: var(--color-hero-icon);
+    background-color: var(--color-dark-transparent);
+    bottom: 0px;
+    display: block;
+    left: 0px;
+    font-size: 1rem;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    transition: all ease-in .13s;
+}
+
+@media only screen and (min-width: 700px){
+    .GestItem{
+        width: 30%;
+    }
+
+    .GestItem p{
+        font-size: 1.3rem;
+    }
+}

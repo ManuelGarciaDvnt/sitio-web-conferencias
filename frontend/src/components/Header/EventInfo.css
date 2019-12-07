@@ -1,0 +1,45 @@
+.Event_info{
+    font-size: 2em;
+    text-align: center;
+}
+
+.Event_info p{
+    display: inline;
+    font-size: 1em;
+}
+
+.Event_info .event_main p i {
+    color: var(--color-hero-icon);
+    margin-right: 1rem;
+    font-size: .8em;
+}
+
+.Event_info .site_name {
+    font-size: 4em;
+    font-family: 'PT Sans', monospace;
+    font-weight: 700;
+    margin-top: 10%;
+    text-transform: uppercase;
+
+}
+
+.event_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+.Event_info .site_slogan {
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 700px){
+    .Event_info .site_name{
+        font-size: 3rem;
+    }
+
+    .event_main{
+        padding: 1rem;
+    }
+}
+

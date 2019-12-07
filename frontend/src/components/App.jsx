@@ -1,11 +1,11 @@
 import React from 'react';
+import Home from './pages/Home/Home';
 
 const App = (props) => {
     return (
-      <div>
-        from app
-        
-      </div>
+      <React.Fragment>
+        <Home/>
+      </React.Fragment>
     );
 }
 

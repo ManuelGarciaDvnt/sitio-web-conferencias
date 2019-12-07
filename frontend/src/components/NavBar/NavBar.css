@@ -1,0 +1,52 @@
+.NavBar {
+  background-color: var(--color-navbar);
+  padding: 1rem 2rem;
+  color: var(--color-bg);
+}
+.NavBar .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 80%;
+}
+
+.NavBar_nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: "Oswald";
+  width: 100%;
+}
+
+.btn-menubar {
+  cursor: pointer;
+  font-size: 3.5em;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    display: inline-block;
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .NavBar_nav {
+      flex-direction: row;
+    justify-content: flex-end;
+    width: 75%;
+  }
+  .NavBar_nav a {
+    margin-right: 1rem;
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+
+  .btn-menubar {
+    display: none;
+  }
+}

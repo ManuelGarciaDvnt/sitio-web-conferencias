@@ -26,7 +26,7 @@ module.exports = {
         use: ["style-loader","css-loader"]
       },
       {
-        test: /\.(ttf|woff|eot|jpg|jpeg|svg|png|mp4|mkv|mp3)$/,
+        test: /\.(ttf|woff|eot|jpg|jpeg|svg|png|mp4|mkv|mp3|ogv|webm)$/,
         use: {
           loader: "file-loader",
           options: {
@@ -39,7 +39,8 @@ module.exports = {
   },
   devServer: {
     port: 3400,
-    hot: true
+    hot: true,
+    host: '0.0.0.0'
   },
   resolve: {
     extensions: [".js", ".jsx"]

@@ -1,0 +1,21 @@
+.Hero{
+    background: url(../../static/herobg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.Hero_overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #2928356b;
+    z-index: 2;
+}
+
+.header_content{
+    color: var(--color-bg);
+    padding-top: 2rem;
+    z-index: 3;
+}

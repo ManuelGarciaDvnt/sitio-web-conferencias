@@ -1,0 +1,12 @@
+.Socialbar{
+    font-size: 3em;
+    text-align: center;
+}
+
+.Socialbar a{
+    margin-right: 1rem;
+}
+
+.Socialbar a:last-child{
+    margin-right: 0;
+}
