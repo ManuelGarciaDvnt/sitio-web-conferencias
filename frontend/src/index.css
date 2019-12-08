@@ -65,7 +65,7 @@ p {
   padding: 3em 0;
 }
 
-.section h2{
+.section h2 {
   margin-bottom: 1.2em;
 }
 
@@ -144,8 +144,27 @@ p {
   border: solid 1px var(--color-hero-icon);
 }
 
-.number{
-  color: var(--color-hero-icon)!important;
-  font-family: 'Oswald';
-  font-size: 6rem;
+.number {
+  color: var(--color-hero-icon);
+  font-family: "Oswald";
+  font-size: 3rem;
+}
+
+@media only screen and (min-width: 700px){
+  .number{
+    font-size: 4.5rem;
+  }
+}
+
+.parallax::before {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  filter: brightness(.65);
+  -webkit-filter: brightness(.65);
 }

@@ -5,6 +5,7 @@ import EDescription from '../../EDescription/EDescription';
 import Program from '../../Program/Program';
 import Guests from '../../Guests/Guests';
 import Counter from '../../Counter/Counter';
+import Prices from '../../Prices/Prices';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Program/>
             <Guests/>
             <Counter/>
+            <Prices/>
         </div>
     );
 }

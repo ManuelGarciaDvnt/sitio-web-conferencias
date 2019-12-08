@@ -1,0 +1,37 @@
+.CardPrice{
+    background-color: var(--color-white);
+    border: solid 1px var(--color-dark-transparent);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 30%;
+    min-width: 230px;
+    max-width: 250px;
+    margin: 0 1rem;
+    padding: 2rem 1rem;
+    transition: all ease-out .2s;
+}
+
+.CardPrice .number{
+    color: var(--color-black);
+}
+
+.CardPrice h3{
+    color: var(--color-hero-icon);
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.CardPrice:nth-of-type(2){
+    border: solid 1px var(--color-hero-icon);
+    transform: scale(1.1);
+}
+
+.CardPrice div p i{
+    color: var(--color-green);
+    margin-right: .2em;
+}
+
+.CardPrice:hover{
+    transform: scale(1.1);
+}
+
