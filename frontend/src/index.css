@@ -143,3 +143,9 @@ p {
   color: var(--color-hero-icon);
   border: solid 1px var(--color-hero-icon);
 }
+
+.number{
+  color: var(--color-hero-icon)!important;
+  font-family: 'Oswald';
+  font-size: 6rem;
+}
