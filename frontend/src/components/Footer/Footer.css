@@ -1,0 +1,50 @@
+.site__Footer{
+    background-color: var(--color-navbar);
+    color: var(--color-bg);
+}
+
+.site__Footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em 2em;
+}
+
+.site__Footer .container div{
+    width: 30%;
+    margin: 2em 0;
+    min-width: 310px;
+}
+
+@media only screen and (min-width: 700px){
+    .site__Footer .container div{
+        margin-right: 2em;
+    }
+}
+
+.site__Footer .container div h3{
+    font-family: 'Oswald',sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.site__Footer .container div h3 span{
+    color: var(--color-hero-icon);
+    margin-left: .5em;
+}
+
+.site__Footer .container p{
+    font-size: 1.8em;
+}
+
+.Footer__social-network nav{
+    text-align: start;
+}
+
+.Footer__copy{
+    background-color: var(--color-dark-transparent);
+    font-size: 1.8em;
+    padding: 1.5em;
+    text-align: center;
+    width: 100%;
+}

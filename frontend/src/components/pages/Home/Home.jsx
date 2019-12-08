@@ -9,6 +9,8 @@ import Prices from '../../Prices/Prices';
 import Map from '../../Map/Map';
 import Testimonials from '../../Testimonials/Testimonials';
 import NewsLetter from '../../NewsLetter/NewsLetter';
+import CountDown from '../../CountDown/CountDown';
+import Footer from '../../Footer/Footer';
 
 const Home = () => {
     return (
@@ -23,6 +25,8 @@ const Home = () => {
             <Map/>
             <Testimonials/>
             <NewsLetter/>
+            <CountDown/>
+            <Footer/>
         </div>
     );
 }

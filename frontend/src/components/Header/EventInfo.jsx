@@ -14,9 +14,9 @@ const EventInfo = props => {
           Bogota, Colombia
         </p>
       </div>
-      <h1 className="site_name">BG - Webcamp</h1>
+      <h1 className="site_name">GDL - WEBCAMP</h1>
       <p className="site_slogan">
-        La mejor conferencia de <span>Diseño web</span>
+        La mejor conferencia de <span>Desarrollo web</span>
       </p>
     </div>
   );

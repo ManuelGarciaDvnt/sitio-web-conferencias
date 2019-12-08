@@ -5,7 +5,7 @@
 
 .NewsLetter .content{
     text-align: center;
-    padding: 10em 5em;
+    padding: 10em 0;
 }
 
 .NewsLetter .content p{
@@ -14,7 +14,7 @@
 
 .NewsLetter .content h3{
     font-family: 'PT Sans';
-    font-size: 7rem;
-    color: var(--color-hero-icon);
+    font-size: 7em;
+    color: var(--color-white);
     text-transform: uppercase;
 }
