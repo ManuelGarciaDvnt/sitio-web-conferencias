@@ -1,7 +1,6 @@
 
 .Counter::before{
     background-image: url(../../static/bg-resumen.jpg);
-    content: '';
 }
 
 .e-resume{

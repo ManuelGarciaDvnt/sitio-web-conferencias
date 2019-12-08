@@ -138,6 +138,17 @@ p {
   color: var(--color-white);
 }
 
+.btn.btn-secondary {
+  background-color: var(--color-transparent);
+  border: solid 1px var(--color-white);
+  color: var(--color-white);
+}
+
+.btn.btn-secondary:hover{
+  background-color: var(--color-hero-icon);
+  border: solid 1px var(--color-hero-icon);
+}
+
 .btn.btn.btn-primary:hover {
   background-color: var(--color-white);
   color: var(--color-hero-icon);
@@ -152,11 +163,12 @@ p {
 
 @media only screen and (min-width: 700px){
   .number{
-    font-size: 4.5rem;
+    font-size: minmax(4rem, 20px);
   }
 }
 
 .parallax::before {
+  content: "";
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

@@ -1,0 +1,12 @@
+.Testimonials .container{
+    display: flex;
+    overflow-x: scroll;
+    padding: 2em;
+}
+
+@media only screen and (min-width: 700px){
+    .Testimonials .container{
+        justify-content: space-between;
+        padding: 2em 0;
+    }
+}

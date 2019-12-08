@@ -6,6 +6,9 @@ import Program from '../../Program/Program';
 import Guests from '../../Guests/Guests';
 import Counter from '../../Counter/Counter';
 import Prices from '../../Prices/Prices';
+import Map from '../../Map/Map';
+import Testimonials from '../../Testimonials/Testimonials';
+import NewsLetter from '../../NewsLetter/NewsLetter';
 
 const Home = () => {
     return (
@@ -17,6 +20,9 @@ const Home = () => {
             <Guests/>
             <Counter/>
             <Prices/>
+            <Map/>
+            <Testimonials/>
+            <NewsLetter/>
         </div>
     );
 }

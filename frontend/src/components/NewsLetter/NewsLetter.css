@@ -1,0 +1,20 @@
+.NewsLetter::before{
+    background-image: url(../../static/bg-newsletter.jpg);
+
+}
+
+.NewsLetter .content{
+    text-align: center;
+    padding: 10em 5em;
+}
+
+.NewsLetter .content p{
+    color: var(--color-white);
+}
+
+.NewsLetter .content h3{
+    font-family: 'PT Sans';
+    font-size: 7rem;
+    color: var(--color-hero-icon);
+    text-transform: uppercase;
+}
